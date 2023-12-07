@@ -1,5 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@page import="ar.com.integrador.domain.Orador"%>
+<%@page import="java.util.List"%>
+
 <!doctype html>
 <html lang="es">
   <head>
@@ -58,6 +59,12 @@
                         </div>
                     </div>
         </section>
+        
+        
+		    <section class="container mb-4 text-center" id="restoOradores">
+		       <a class="btn btn-outline-success" href="<%=request.getContextPath()%>/FindAllOradorController">Conoce al resto de los ORADORES</a>
+		
+		    </section>
 
 
         <section class="container-fluid" id="lugarFecha">
@@ -86,7 +93,7 @@
                 <p>Anotate como Orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
             </div>
             <div class="contenidoForm">
-                <form action="" method="get">
+            <form action="<%=request.getContextPath()%>/CreateOradorController" method="POST">
                     <div class="datos">
                         <div class="name">
                             <input type="text" id="name1" name="name" placeholder="Nombre" required>

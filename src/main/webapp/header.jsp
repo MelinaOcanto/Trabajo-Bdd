@@ -23,7 +23,11 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link colorVerde" href="./pages/tickets.html">Comprar Tickets</a>
-                      </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.jsp">LogIn</a>
+                    </li>
+                      
                   </ul>
                 </div>
               </div>
