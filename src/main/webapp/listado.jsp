@@ -3,14 +3,14 @@
 
 <!doctype html>
 <html lang="es">
-
-	<head>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	  <link rel="stylesheet" href="css/estilos-propios.css">
-	  <link rel="shortcut icon" href="./img/codoacodo-min.png" type="image/x-icon">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico">
+    <title>Java</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+ 
 	
 	  <title>Trabajo Integrador</title>
 		<style>
@@ -36,11 +36,48 @@
 		    }
 		  </style>
 	</head>
+
 	<body>
 	     
-	     
-	     <!-- aca va el header.jsp -->
-		 <jsp:include page="header.jsp"/>
+	     <header>
+            <nav class="navbar navbar-expand-lg navbar-dark grisOscuro">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src= "./assets/img/codoacodo.png" class="logo" alt="Logo de codo a codo 4.0">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#oradores">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lugarFecha">Lugar y Fecha</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formularioOrador">Conviertete en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link colorVerde" href="./pages/tickets.html">Comprar Tickets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.jsp">LogIn</a>
+                    </li>
+                      
+                  </ul>
+                </div>
+              </div>
+            </nav> 
+
+
+       
+    </header>
+	    
 		 
 		 <main>
 			<section class="container mt-5 mb-4" id="restoOradores">
@@ -91,10 +128,10 @@
                     <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Preguntas Frecuentes</a>
                     <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Prensa</a>
                     <a class= "col-6 col-md-2 my-1" href="#conferencia">Conferencias</a>
-                    <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Términos y condiciones</a>
+                    <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Terminos y condiciones</a>
                     <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Privacidad</a>
                     <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Estudiantes</a>
-                    <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Contáctanos</a>
+                    <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Contactanos</a>
                 </div>
            
             </div>

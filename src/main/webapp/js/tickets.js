@@ -1,5 +1,5 @@
 //validar primer formulario
-let name1 = document.getElementById("name1");
+/*let name1 = document.getElementById("name1");
 let lastName = document.getElementById("last_name");
 let comentario = document.getElementById("comentario")
 
@@ -24,7 +24,7 @@ const validar = () => {
 }
 
 enviar.addEventListener("click", validar);
-
+*/
 
 
 
@@ -146,6 +146,4 @@ const resetValidarCampos =() =>{
 
 btnBorrar.addEventListener("click", resetValidarCampos);
 btnResumen.addEventListener("click", validarCampos);
-
-
 

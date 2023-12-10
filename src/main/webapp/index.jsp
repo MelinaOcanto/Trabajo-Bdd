@@ -13,9 +13,11 @@
   </head>
   <body>
   
-     <!-- aca va el header.jsp -->
+  <!-- aca va el header.jsp -->
 		 <jsp:include page="header.jsp"/>
-		 
+		
+     
+     
     <main class="container-fluid justify-content-center" id="oradores">
         <h2 class="titulo">CONOCE A LOS<div class="tituloOradores"> ORADORES</div></h2>
       
@@ -23,13 +25,13 @@
         <section class="container flex-wrap align-items-center justify-content-center">
                     <div class="row conj">
                         <div class="col-md-4 tarjOrad">
-                            <img class="imgOra" src="./assets/img/steve.jpg" alt="Steve Jobs, mostrando un teléfono">
+                            <img class="imgOra" src="./assets/img/steve.jpg" alt="Steve Jobs, mostrando un telÃ©fono">
                             <div class="contenido">
                                 <h4 class="tituloAmarillo">JavaScript</h4>
                                 <h4 class="tituloCeleste">React</h4>
                                 <h3 class="orador">Steve Jobs</h3>
                                 <p>Steven Paul Jobs, creador de productos revolucionarios de Apple, como el iPod, iPhone y iPad,
-                                        nos trae las últimas novedades de Javascript y React, evolución de la tecnologia moderna. Imperdible!
+                                        nos trae las Ãºltimas novedades de Javascript y React, evoluciÃ³n de la tecnologia moderna. Imperdible!
                                 </p>
                             </div>
                         </div>
@@ -59,12 +61,11 @@
                         </div>
                     </div>
         </section>
-        
-        
-		    <section class="container mb-4 text-center" id="restoOradores">
+        <section class="container mb-4 text-center" id="restoOradores">
 		       <a class="btn btn-outline-success" href="<%=request.getContextPath()%>/FindAllOradorController">Conoce al resto de los ORADORES</a>
 		
 		    </section>
+		
 
 
         <section class="container-fluid" id="lugarFecha">
@@ -74,13 +75,13 @@
                 </div>
                 <div class="col-md-6 lugar">
                     <h2>Bs As - Octubre</h2>
-                    <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina. En los estados unidos, Honolulu es la 
-                    más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área
+                    <p>Buenos Aires es la provincia y localidad mÃ¡s grande del estado de Argentina. En los estados unidos, Honolulu es la 
+                    mÃ¡s sureÃ±a de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al Ã¡rea
                     urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-
                     condado consolidada que cubre toda la ciudad(aproximadamente 600km de superficie)
                     </p>
                     <div class="conoceMas">
-                        <a href="https://www.tripadvisor.com.ar/Tourism-g60982-Honolulu_Oahu_Hawaii-Vacations.html" target="_blank">Conocé más</a>
+                        <a href="https://www.tripadvisor.com.ar/Tourism-g60982-Honolulu_Oahu_Hawaii-Vacations.html" target="_blank">ConocÃ© mÃ¡s</a>
                     </div>
                 </div>
             </div>
@@ -89,51 +90,45 @@
 
         <section class="form1" id="formularioOrador">
             <div class="formulario">
-                <h2>CONVIÉRTETE EN UN<div class="tituloOrador">ORADOR</div></h2>
-                <p>Anotate como Orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+                <h2>CONVIÃ‰RTETE EN UN<div class="tituloOrador">ORADOR</div></h2>
+                <p>Anotate como Orador para dar una charla ignite. CuÃ©ntanos de quÃ© quieres hablar!</p>
             </div>
             <div class="contenidoForm">
-            <form action="<%=request.getContextPath()%>/CreateOradorController" method="POST">
-                    <div class="datos">
-                        <div class="name">
-                            <input type="text" id="name1" name="name" placeholder="Nombre" required>
-                        </div>
-                        <div class="ap">
-                            <input type="text" id="last_name" name="lastname" placeholder="Apellido" required>
-                        </div>
-                    </div>
-                    <br>
-                    <div>
-                        <textarea name="comentario" id="comentario" cols="55" rows="5" placeholder="Sobre qué quieres hablar?" required></textarea>
-                    </div>
-                    <p>Recuerda incluir un titulo para tu charla</p>
-                    <div class="botonEnviar">
-                        <input type="submit" value="Enviar" id="enviar">
-                    </div>
-                    
-                </form>
+                <form action="<%=request.getContextPath()%>/CreateOradorController" method="POST">
+		                    <div class="row gx-2">
+		                        <div class="col-md mb-3">
+		                            <input type="text" class="form-control" name="nombre" placeholder="Nombre" aria-label="Nombre" required>
+		                        </div>
+		                        <div class="col-md mb-3">
+		                            <input type="text" class="form-control" name="apellido" placeholder="Apellido" aria-label="Apellido" required>
+		                        </div>
+		                    </div>
+		                    <div class="row">
+		                        <div class="col mb-3">
+		                            <input type="email" class="form-control" name="mail" placeholder="Email" aria-label="Email" required>
+		                        </div>
+		                    </div>
+		                    <div class="row">
+		                        <div class="col mb-3">
+		                            <textarea class="form-control" name="tema" id="exampleFormControlTextarea1" rows="4"
+		                                placeholder="Sobre que quieres hablar?" required></textarea>
+		                            <div id="emailHelp" class="form-text mb-3">Recuerda incluir un titulo para tu charla.</div>
+		                            <div class="d-grid">
+		                                <button type="submit" class="btn btn-lg btn-form">Enviar</button>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </form>
             </div>
         </section>
         
     </main>
         
-    <footer>
-        <div class="footer text-center bg-light py-2">
-            <div class="container">
-                <div class="row justify-content-evenly align-items-center flex-wrap ">
-                    <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Preguntas Frecuentes</a>
-                    <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Prensa</a>
-                    <a class= "col-6 col-md-2 my-1" href="#conferencia">Conferencias</a>
-                    <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Términos y condiciones</a>
-                    <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Privacidad</a>
-                    <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Estudiantes</a>
-                    <a class= "col-6 col-md-2 my-1" href="./pages/404.html">Contáctanos</a>
-                </div>
-           
-            </div>
-        </div>
-    </footer>
+   <!-- aca va el footer.jsp -->
+		 <jsp:include page="footer.jsp"/>
+		 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="./js/tickets.js"></script>
+   
 </body>
 </html>

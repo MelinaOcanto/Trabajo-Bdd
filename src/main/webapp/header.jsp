@@ -22,12 +22,11 @@
                         <a class="nav-link" href="#formularioOrador">Conviertete en orador</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link colorVerde" href="./pages/tickets.html">Comprar Tickets</a>
-                    </li>
+                        <a class="nav-link colorVerde" href="./tickets.jsp">Comprar Tickets</a>
+                      </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.jsp">LogIn</a>
+                        <a class="nav-link" href="./login.jsp">LogIn</a>
                     </li>
-                      
                   </ul>
                 </div>
               </div>
@@ -45,7 +44,7 @@
                 </div>
                 <div class="botones">
                     <a class="botonOrador" href="#formularioOrador">Quiero ser orador</a>
-                    <a class="botonComprar" href="./pages/tickets.html">Comprar tickets</a>
+                    <a class="botonComprar" href="./tickets.jsp">Comprar tickets</a>
                 </div>
         </section>
     </header>
