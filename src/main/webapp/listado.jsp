@@ -4,10 +4,10 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="./favicon.ico">
-    <title>Java</title>
+    <link rel="shortcut icon" href="./assets/img/codoacodo.png" type="image/x-icon">
+    <title>Trabajo Integrador Java</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
  
@@ -51,19 +51,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                      <a class="nav-link active" aria-current="page" href="./index.jsp">La conferencia</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#oradores">Los oradores</a>
+                      <a class="nav-link" href="./index.jsp#oradores">Los oradores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#lugarFecha">Lugar y Fecha</a>
+                        <a class="nav-link" href="./index.jsp#lugarFecha">Lugar y Fecha</a>
                       </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#formularioOrador">Conviertete en orador</a>
+                        <a class="nav-link" href="./index.jsp#formularioOrador">Conviertete en orador</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link colorVerde" href="./pages/tickets.html">Comprar Tickets</a>
+                        <a class="nav-link colorVerde" href="./tickets.jsp">Comprar Tickets</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login.jsp">LogIn</a>

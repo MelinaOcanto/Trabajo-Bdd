@@ -15,7 +15,8 @@
 		 <section class="mt-5 container" id="form-orador">
 		        <div class="row justify-content-center">
 		            <div class="col-lg-8 col-xl-7">
-		                <h2 class="titulo-gral mb-3">LogIn</h2>
+		                
+		                <h1 class="titulo-gral mb-3">LogIn</h1>
 		                
 		                <form action="<%=request.getContextPath()%>/LoginAdminController" method="POST">
 		                    <div class="row justify-content-center">
