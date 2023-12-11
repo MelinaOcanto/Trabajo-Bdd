@@ -11,6 +11,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
   </head>
+  <style>
+    .botonVerde{
+        background: #96c93e;
+        color: #fff !important;
+    }
+    .botonVerde:hover { background: #74aa17; }
+  </style>
   <body>
   
   <!-- aca va el header.jsp -->
@@ -114,7 +121,7 @@
 		                                placeholder="Sobre que quieres hablar?" required></textarea>
 		                            <div id="emailHelp" class="form-text mb-3">Recuerda incluir un titulo para tu charla.</div>
 		                            <div class="d-grid">
-		                                <button type="submit" class="btn btn-lg btn-form">Enviar</button>
+		                                <button type="submit" class="botonVerde btn btn-lg btn-form">Enviar</button>
 		                            </div>
 		                        </div>
 		                    </div>

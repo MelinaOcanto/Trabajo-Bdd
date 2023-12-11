@@ -12,7 +12,8 @@
 	  <link rel="shortcut icon" href="./assets/img/codoacodo.png" type="image/x-icon">
 	  <title>Trabajo Integrador Java</title>
 	  <style>
-		    body{
+        
+        body{
 		        height:100vh;
 		        display: grid;
 		        grid-template-rows: 10% 75% 15%;
@@ -32,6 +33,8 @@
 		        grid-area: footer;
 		      
 		    }
+
+
 		  </style>
 	</head>
 	<body>
@@ -59,7 +62,7 @@
                       <a class="nav-link" href="./index.jsp#formularioOrador">Conviertete en orador</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link colorVerde" href="./tickets.jsp">Comprar Tickets</a>
+                      <a class="nav-link" href="./tickets.jsp">Comprar Tickets</a>
                     </li>
                   <li class="nav-item">
                         <a class="nav-link" href="./login.jsp">LogIn</a>
