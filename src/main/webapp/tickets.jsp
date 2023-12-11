@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+Ôªø<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -155,10 +155,10 @@
                 <a class= "col-6 col-md-2 my-1" href="./404.html">Preguntas Frecuentes</a>
                 <a class= "col-6 col-md-2 my-1" href="./404.html">Prensa</a>
                 <a class= "col-6 col-md-2 my-1" href="../index.html">Conferencias</a>
-                <a class= "col-6 col-md-2 my-1" href="./404.html">TÈrminos y condiciones</a>
+                <a class= "col-6 col-md-2 my-1" href="./404.html">T√©rminos y condiciones</a>
                 <a class= "col-6 col-md-2 my-1" href="./404.html">Privacidad</a>
                 <a class= "col-6 col-md-2 my-1" href="./404.html">Estudiantes</a>
-                <a class= "col-6 col-md-2 my-1" href="./404.html">Cont·ctanos</a>
+                <a class= "col-6 col-md-2 my-1" href="./404.html">Cont√°ctanos</a>
             </div>
        
         </div>

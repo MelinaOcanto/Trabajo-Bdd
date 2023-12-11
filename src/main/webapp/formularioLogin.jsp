@@ -1,4 +1,4 @@
-<%@page import="ar.com.integrador.domain.Orador"%>
+﻿<%@page import="ar.com.integrador.domain.Orador"%>
 <%@page import="java.util.List"%>
 
 <!doctype html>
@@ -25,7 +25,7 @@
 		                            
 		                        </div>
 		                         <div class="col-8 mb-3 mb-4">
-		                           <input type="password" class="form-control" name="password" placeholder="Contrase�a" aria-label="Password" required>
+		                           <input type="password" class="form-control" name="password" placeholder="Contraseña" aria-label="Password" required>
 		                         </div>
 		                    </div>
 		                    <div class="row justify-content-center">

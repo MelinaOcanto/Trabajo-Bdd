@@ -1,4 +1,4 @@
-<%@page import="ar.com.integrador.domain.Orador"%>
+﻿<%@page import="ar.com.integrador.domain.Orador"%>
 <%@page import="java.util.List"%>
 <%
  Orador orador = (Orador)request.getAttribute("orador"); // levanto el departamento que viene del controller

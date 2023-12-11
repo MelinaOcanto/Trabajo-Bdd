@@ -1,4 +1,4 @@
-<header>
+﻿<header>
             <nav class="navbar navbar-expand-lg navbar-dark grisOscuro">
               <div class="container">
                 <a class="navbar-brand" href="#">
@@ -38,7 +38,7 @@
                     <h1>Conf Bs As</h1>
                     <p>Bs As llega por primera vez a Argentina. Un evento para compartir con
                     nuestra comunidad el conocimiento y experiencia de los expertos que
-                    est�n creando el futuro de internet. Ven a conocer a miembros del
+                    están creando el futuro de internet. Ven a conocer a miembros del
                     evento, a otros estudiantes de Codo a Codo y los oradores del primer
                     nivel que tenemos para ti. Te esperamos!</p>
                 </div>
