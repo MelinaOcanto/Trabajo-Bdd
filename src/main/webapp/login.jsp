@@ -63,7 +63,7 @@
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="./tickets.jsp">Comprar Tickets</a>
-                    </li>
+                  </li>
                   <li class="nav-item">
                         <a class="nav-link" href="./login.jsp">LogIn</a>
                     </li>

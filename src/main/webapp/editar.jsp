@@ -44,7 +44,7 @@
 		    <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
 		        <div class="container">
 		            <a class="navbar-brand" href="index.jsp">
-		                <img src="img/codoacodo-min.png" alt="Codo a Codo logo">
+		                <img src="assets/img/codoacodo.png" alt="Codo a Codo logo">
 		                Conf Bs As
 		            </a>
 		            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -64,7 +64,7 @@
 		                        <a class="nav-link" href="./index.jsp#lugar">El lugar y la fecha</a>
 		                    </li>
 		                    <li class="nav-item">
-		                        <a class="nav-link" href="./index.jsp#form-orador">Convi�rtete en orador</a>
+		                        <a class="nav-link" href="./index.jsp#form-orador">Conviértete en orador</a>
 		                    </li>
 		                    <li class="nav-item">
 		                        <a class="nav-link btn-compra-tickets" href="comprar-tickets.html">Comprar tickets</a>
@@ -116,7 +116,7 @@
 		                                placeholder="<%=orador.getTema()%>" 
 		                                
 		                                required><%=orador.getTema()%> </textarea>
-		                            <div id="emailHelp" class="form-text mb-3">Recuerda incluir un t�tulo para tu charla.</div>
+		                            <div id="emailHelp" class="form-text mb-3">Recuerda incluir un título para tu charla.</div>
 		                            <div class="d-grid">
 		                                <button type="submit" class="btn btn-lg btn-form">Modificar</button>
 		                            </div>
