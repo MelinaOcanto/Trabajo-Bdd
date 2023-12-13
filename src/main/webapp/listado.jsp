@@ -14,6 +14,18 @@
 	
 	  <title>Trabajo Integrador</title>
 		<style>
+			.volver{
+				border-radius: 5px;
+                background-color: rgb(41, 167, 68);
+				color:white;
+				padding: 10px;
+				
+			}
+
+			.volver a{
+				text-decoration: none;
+			}
+			
 		    body{
 		        height:100vh;
 		        display: grid;
@@ -99,25 +111,39 @@
 						  	//se guardo bajo el nombre de "listado"
 						  	List<Orador> listado = (List<Orador>)request.getAttribute("listado");
 					 	 %>
-		                <tbody>
-			                 <!-- ESTO SE REPITE TANTA CANDTIDAD DE VECES COMO ARTICULOS TENGA -->
-						   <%
-						   	for( Orador  unOrador : listado) {
-						   %>
-		                  <tr>
-		                    <th scope="row"><%=unOrador.getId()%></th>
-		                    <td><%=unOrador.getNombre() %></td>
-		                    <td><%=unOrador.getApellido() %></td>
-		                    <td><%=unOrador.getTema() %></td>
-		                  </tr>
-		                   <%
-					   		}
-					  	   %>
-		                </tbody>
+						  <tbody>
+							<% 
+								// Verificar si la lista está vacía
+								if (listado != null && !listado.isEmpty()) {
+									// Si la lista no está vacía, mostrar los elementos
+									for (Orador unOrador : listado) {
+							%>
+							<tr>
+								<th scope="row"><%= unOrador.getId() %></th>
+								<td><%= unOrador.getNombre() %></td>
+								<td><%= unOrador.getApellido() %></td>
+								<td><%= unOrador.getTema() %></td>
+							</tr>
+							<%
+								}
+								} else {
+									// Si la lista está vacía, mostrar un mensaje
+							%>
+							<tr>
+								<td colspan="4">No hay temas que coincidan.</td>
+							</tr>
+							<%
+								}
+							%>
+						</tbody>
+
 		              </table>
 		        </div>
 
     	  </section>
+		  <div class="d-flex justify-content-center align-items-center">
+			<a class= "volver" btn404" href="javascript:history.back()">VOLVER</a>
+		</div>
 	
 		
 		</main>

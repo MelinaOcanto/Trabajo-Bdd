@@ -9,6 +9,13 @@
 .colorVerde{
     color: rgb(41, 167, 68)
 }
+
+#colorVerde.colorVerde{
+    color: rgb(41, 167, 68)
+
+}
+
+
 .grisOscuro{
     background: rgb(53, 58, 64);
 }

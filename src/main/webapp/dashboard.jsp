@@ -12,6 +12,15 @@
 	  <link rel="shortcut icon" href="./assets/img/codoacodo.png" type="image/x-icon">
 	  <title>Trabajo Integrador Java</title>
 		<style>
+			.buscador{
+				width: 400px;
+				
+			}
+			.buscador input{
+				margin-right: 10px;
+			}
+
+			
 		    body{
 		        height:100vh;
 		        display: grid;
@@ -75,8 +84,22 @@
 		</header>
 		
 		<main>
+			<section class="mt-5">
+		        <h3 class="text-center my-3">Encontra tus oradores favoritos por sus temas</h3>
+		        <div class="d-flex justify-content-center">
+					<form class="buscador" action="<%=request.getContextPath()%>/BuscarOradorTemaController" method="post">
+						<div class="input-group">
+							<input class="form-control" name="temabuscar" id="temabuscar" type="search" placeholder="Escribi un tema" aria-label="Buscar">
+							<div class="input-group-append">
+								<button class="btn btn-outline-success" type="submit">Buscar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+	        </section>
 			<section class="container mt-5 mb-4" id="restoOradores">
-		        <h2 class="titulo-gral">Conoce todos los oradores que se presentan</h2>
+		        <h4 class="text-center">Conoce todos los oradores que se presentan</h4>
 		      
 		        <div class="row">
 		            <table class="table">

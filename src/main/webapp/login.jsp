@@ -12,6 +12,9 @@
 	  <link rel="shortcut icon" href="./assets/img/codoacodo.png" type="image/x-icon">
 	  <title>Trabajo Integrador Java</title>
 	  <style>
+      .alto{
+        height: 90px;
+      }
         
         body{
 		        height:100vh;
@@ -40,7 +43,7 @@
 	<body>
 	<header>
         <nav class="navbar navbar-expand-lg navbar-dark grisOscuro">
-            <div class="container">
+            <div class="container alto">
               <a class="navbar-brand" href="#">
                   <img src= "./assets/img/codoacodo.png" class="logo" alt="Logo de codo a codo 4.0">
               </a>
@@ -62,7 +65,7 @@
                       <a class="nav-link" href="./index.jsp#formularioOrador">Conviertete en orador</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="./tickets.jsp">Comprar Tickets</a>
+                      <a id="colorVerde"class="nav-link colorVerde" href="./tickets.jsp">Comprar Tickets</a>
                   </li>
                   <li class="nav-item">
                         <a class="nav-link" href="./login.jsp">LogIn</a>
