@@ -136,7 +136,7 @@
 		                <a class="nav-link" href="#">Preguntas <span>frecuentes</span></a>
 		            </li>
 		            <li class="nav-item">
-		                <a class="nav-link" href="#">Cont�ctanos</a>
+		                <a class="nav-link" href="#">Contactanos</a>
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Prensa</a>
@@ -145,7 +145,7 @@
 		                <a class="nav-link" href="#">Conferencias</a>
 		            </li>
 		            <li class="nav-item">
-		                <a class="nav-link" href="#">T�rminos y <span>condiciones</span></a>
+		                <a class="nav-link" href="#">Términos y <span>condiciones</span></a>
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#">Privacidad</a>
