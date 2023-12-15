@@ -19,6 +19,7 @@
                 background-color: rgb(41, 167, 68);
 				color:white;
 				padding: 10px;
+				margin-bottom: 20px;
 				
 			}
 
@@ -142,7 +143,7 @@
 
     	  </section>
 		  <div class="d-flex justify-content-center align-items-center">
-			<a class= "volver" btn404" href="javascript:history.back()">VOLVER</a>
+			<a class= "volver" href="javascript:history.back()">VOLVER</a>
 		</div>
 	
 		
